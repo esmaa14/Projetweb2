@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.PostConstruct;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.JOptionPane;
 import javax.xml.parsers.ParserConfigurationException;
 
 import java.util.ArrayList;
@@ -28,7 +29,9 @@ public class CVcontroleur {
 	
 	int identifiant =0;  
 	
-	
+
+   
+
  
 	public CVcontroleur() throws ParserConfigurationException{
 		  MYLISTPERONNECV = new CVList(); 
@@ -36,8 +39,17 @@ public class CVcontroleur {
 	}
 	public void recupererinfo() throws ParserConfigurationException{
 		 
-	 	
- 	File rep = new File("xmlCV");
+		 File theDir = new File("xmlCV/");  // Defining Directory/Folder Name  
+		    try{   
+		        if (!theDir.exists()){  // Checks that Directory/Folder Doesn't Exists!  
+		         boolean result = theDir.mkdir();    
+		         if(result){  
+		         JOptionPane.showMessageDialog(null, "New Folder created!");}  
+		        }  
+		    }catch(Exception e){  
+		        JOptionPane.showMessageDialog(null, e);  
+		    }  
+ 	File rep = new File("xmlCV/");
  	 System.out.println ( rep.getAbsolutePath());
 		File[] fichiersxml = rep.listFiles(new FilenameFilter(){	
 		 
@@ -128,7 +140,7 @@ public class CVcontroleur {
 
   	     CV cv = null ;
   	     CVEntry personne = new CVEntry();//(id, cv.ident.nom, cv.ident.prenom, cv
-    	File repertoire = new File("xmlCV");
+    	File repertoire = new File("xmlCV/");
     	String [] listefichiers; 
     	listefichiers=repertoire.list();
     	for(int i=0;i<listefichiers.length;i++)
