@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cur:curriculum xmlns:cur="http://dpt-info.com/curriculum">
+    <identite>
+    <nom>Mahdi</nom>
+    <prenom>Esmaa</prenom>
+    <Mme>Melle</Mme>
+    <date_naissance>1984-07-14</date_naissance>
+	 <adresse>eeee</adresse>
+	 <num_tel>00 00 00</num_tel>
+    </identite>
+
+    <objectif>MON CV</objectif>
+  <!--3 or more repetitions:-->
+  <experience>
+    <entreprise>Ministere  des Finance</entreprise>
+    <domaine>Developpement</domaine>
+    <date_debut>2012-05-20</date_debut>
+    <date_fin>2014-09-14</date_fin>
+    <description>ingenieur d'etat</description>
+  </experience>
+  <experience>
+    <entreprise>Bmgi</entreprise>
+    <domaine>Developpemnt</domaine>
+    <date_debut>2010-12-01</date_debut>
+    <date_fin>2012-05-19</date_fin>
+    <description>developpement des Sites Web</description>
+  </experience>
+  <experience>
+    <entreprise>Civi SOft</entreprise>
+      <date_debut>2008-02-02</date_debut>
+      <date_fin>2010-10-14</date_fin>
+    <domaine>developpement</domaine>
+
+    <description>developpement</description>
+  </experience>
+</cur:curriculum>

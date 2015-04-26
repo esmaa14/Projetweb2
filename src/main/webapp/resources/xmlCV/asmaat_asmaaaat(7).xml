@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <cur:curriculum xmlns:cur="http://dpt-info.com/curriculum">
+<identite>
+<nom>asmaat</nom>
+<prenom>asmaaaat</prenom>
+<date_naissance>14/07/1984</date_naissance>
+ <adresse>adr</adresse>
+<num_tel>null</num_tel>
+ </identite>
+<objectif>asmaat</objectif>
+<experience>
+<entreprise>aaaa</entreprise>
+<domaine>aaaa</domaine>
+<date_debut>a</date_debut>
+ <date_fin>aa</date_fin>
+ <description>aa</description>
+ </experience>
+<experience>
+<entreprise>eee2</entreprise>
+<domaine>ddd2</domaine>
+<date_debut>rrrr2</date_debut>
+ <date_fin>dffff2</date_fin>
+ <description>desssss2</description>
+ </experience>
+ </cur:curriculum>

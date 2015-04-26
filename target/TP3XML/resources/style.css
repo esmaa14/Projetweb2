@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {height:100%}
+body {
+	background:#fff;
+	font-family:Arial,
+	 Helvetica, sans-serif;font-size:100%;
+	 line-height:1.25em;
+	 color:#4a4a4a;
+	 width:800px;
+	 padding:0 auto;
+	margin:0 auto;
+}
+ 
+.formulaireulaire {
+  margin:auto; 
+  box-shadow: 4px 4px 14px #aaa;
+  border-radius:8px;
+  backgound:#ffffff;
+  border:none;
+}
+.clear {clear:both}
+ .title{
+	 
+	 font-size:12px;
+	 font-weight:bold;
+	 color:#F00;}
+.formulaireulaire fieldset {
+  padding: 40px 40px 50px 40px;
+  border:none;
+}
+
+.formulaireulaire fieldset legend {
+  position:relative;
+  top:40px;
+  font:Bold 18px Arial;
+  text-decoration:underline;
+  color:#777;
+  padding: 40px 10px 0 10px;
+  margin-top:40px;
+}
+
+.formulaire fieldset p {
+  margin:0 0 20px 80px;
+  font: 14px Arial;
+}
+.formulaire fieldset p label {
+   width: 180px;
+  float: left;
+  padding: 18px 2px 2px 5px;
+}
+.formulaire fieldset p input {
+   width: 350px;
+  padding: 2px 2px 2px 5px;
+  margin-left:12px;
+  height:30px;
+  float:left 20px;
+}
+.formulaire fieldset p textarea {
+   width: 350px;
+  padding: 2px 2px 2px 5px;
+  margin-left:12px;
+  height:50px;
+  float:left 20px;
+}
+
+
+.formulaire fieldset p input.slider {
+  width:280px;
+}
+
+.formulaire fieldset p input.slider:before { content: attr(min); padding-right: 5px; } 
+.formulaire fieldset p input.slider:after { content: attr(max); padding-left: 5px;}  
+  
+output {  
+    display: block;  
+    font-size: 5.5em;  
+    font-weight: bold;  
+}
+
+.formulaire fieldset p button {
+  padding:15px 6px 15px 6px;
+  width:210px;
+  font:bold 12px Arial;
+  color:#555;
+  text-trans.formulaire:uppercase;
+  background:f9f9f9;
+  border:1px solid #ccc;
+  margin:auto;
+  margin-top:40px;
+  box-shadow:2px 2px 6px #ddd;
+  cursor:pointer;
+}
+
+.formulaire fieldset p button:hover {
+  background:#999;
+  color:#fff;
+}
+
+footer {
+  font:11px Arial;
+  margin-top:2%;
+  text-align:center
+}
+
+footer p a {
+  color:#cc0000;
+  text-decoration:none;
+}
+
+footer p a:hover {
+  text-decoration:underline;
+}
+
+
+.centerAlign {
+  margin-right:120px;
+}
